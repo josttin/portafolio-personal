@@ -3,8 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer"; // 1. Importa el Footer
-
+import { Footer } from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,7 +23,7 @@ export default function RootLayout({
         <main className="container mx-auto p-4">
           {children}
         </main>
-        <Footer /> {/* 2. Añade el Footer aquí */}
+        <Footer /> {/*  */}
       </body>
     </html>
   );
